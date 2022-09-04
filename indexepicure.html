@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epicure</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: "Sofia", sans-serif;
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('bck2.jpg');
+    }
+
+    .left {
+        /*  border: 4px solid red;*/
+        display: inline-block;
+        position: absolute;
+        left: 68px;
+        top: 46px;
+        text-align: center;
+        color: #000000;
+        font-size: xx-large;
+        line-height: 0px;
+
+    }
+
+    .left img {
+        width: 100px;
+    }
+
+    .mid {
+        /*border: 4px solid black;*/
+        display: block;
+        position: absolute;
+        top: 78px;
+        left: 289px;
+        width: 63%;
+        margin: 30px auto;
+
+    }
+
+    .mid input[type=text] {
+        display: block;
+        width: 33%;
+        margin: 12px auto;
+        padding: 7px;
+        border-radius: 23px;
+    }
+
+    .navigation {
+        /*  border: 4px solid green;*/
+        display: block;
+        position: absolute;
+        top: 133px;
+        left: 516px;
+        width: 33%;
+        margin: 64px auto;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: medium;
+    }
+
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 34px 10px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: white;
+    }
+
+    .right {
+        /*border: 4px solid yellow;*/
+        display: block;
+        position: absolute;
+        right: 34px;
+        top: 24px;
+    }
+
+    .bt {
+        font-family: "Sofia", sans-serif;
+        margin: 0px 5px;
+        padding: 4px 5px;
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .bt:hover {
+
+        color: gray;
+    }
+
+    .container {
+        /*border:2px solid black;*/
+        /* margin: 4px 504px;
+        padding: 4px 4px;
+        width: 33%; */
+        text-align: center;
+        position: absolute;
+        top: 400px;
+        left: 580px;
+        line-height: 0px;
+        color: grey;
+        font-size: xx-large;
+    }
+
+    .container img {
+        width: 33%;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- icon image -->
+            <!-- <img src="img/icon.png" alt=""> -->
+
+            <div>EPICURE
+            </div>
+        </div>
+
+        <div class="mid">
+            <input type="text" placeholder="Search..">
+
+        </div>
+
+        <div class="navigation">
+            <ul class="navbar">
+                <li><a href="#">CONTINENTAL</a></li>
+                <li><a href="#">DESERT</a></li>
+                <li><a href="#">ITALIAN</a></li>
+                <li><a href="#">INDIAN</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+           <a href="http://127.0.0.1:5500/web%20devlopment/sigepicure.html"> <button class="bt">Signup</button></a>
+           <a href="http://127.0.0.1:5500/web%20devlopment/loginepicure.html"> <button class="bt">Login</button> </a>
+        </div>
+    </header>
+    <div class="container">
+        <div>ORDER . DILEVERY . EAT.</div>
+    </div>
+</body>
+
+</html>
